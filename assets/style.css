@@ -1,0 +1,42 @@
+
+* { box-sizing: border-box; }
+body {
+  margin: 0;
+  font-family: -apple-system, "Segoe UI", Roboto, Arial, sans-serif;
+  color: #5C5B60;
+  background: radial-gradient(circle at 100% 0%, #E8F4FB 0%, #FFFFFF 55%);
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  padding: 32px 16px 56px;
+}
+main { width: 100%; max-width: 420px; }
+.cabecalho { text-align: left; margin-bottom: 20px; }
+.cabecalho img { height: 34px; margin-bottom: 18px; }
+.cabecalho h1 { margin: 0 0 4px; font-size: 22px; color: #00367C; }
+.cabecalho .cargo {
+  margin: 0 0 6px; font-size: 13px; font-weight: 600; letter-spacing: .05em;
+  text-transform: uppercase; color: #0163AC;
+}
+.cabecalho .unidade { margin: 0; font-size: 14px; color: #5C5B60; }
+.salvar {
+  display: block; text-decoration: none; border-radius: 16px; padding: 18px 20px;
+  background: linear-gradient(135deg, #0163AC, #012A5E);
+  color: #FFFFFF; margin: 22px 0 18px; box-shadow: 0 8px 20px rgba(1,42,94,.25);
+}
+.salvar .titulo { font-size: 17px; font-weight: 700; }
+.salvar .sub { font-size: 13px; opacity: .85; margin-top: 4px; }
+.cartao {
+  display: flex; align-items: center; gap: 14px; text-decoration: none;
+  background: #FFFFFF; border-radius: 14px; padding: 14px 16px; margin-bottom: 12px;
+  box-shadow: 0 2px 10px rgba(1,42,94,.08); color: inherit;
+}
+.cartao .icone {
+  flex: none; width: 42px; height: 42px; border-radius: 12px; background: #E8F4FB;
+  display: flex; align-items: center; justify-content: center;
+}
+.cartao .icone svg { width: 22px; height: 22px; }
+.cartao .label { font-size: 14px; font-weight: 700; color: #00367C; margin: 0 0 2px; }
+.cartao .valor { font-size: 14px; color: #5C5B60; margin: 0; word-break: break-word; }
+footer { margin-top: 26px; text-align: left; font-size: 12px; color: #9AA3B5; }
+footer img { height: 16px; vertical-align: middle; margin-right: 6px; }
