@@ -8,3 +8,15 @@ ENAJU_CODE/Atividades_CODE/Cartões de visita/`), a partir de `pessoas.yml`.
 Para atualizar um contato, edite o YAML lá, rode o script e faça commit aqui.
 
 Publicado via GitHub Pages (branch `main`, raiz `/`).
+
+## QR code geral
+
+O QR code geral dos três contatos aponta para:
+
+`https://cnj-proj-icm.github.io/enaju-contato/`
+
+Arquivos:
+
+- `assets/qr-contatos-enaju.png`
+- `assets/qr-contatos-enaju.svg`
+- `assets/qr-contatos-enaju.url.txt`
